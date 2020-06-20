@@ -16,6 +16,6 @@ def handle(req):
     with open(target_csv_path, "wb") as f:
         f.write(response.content)
     #print("Download ready.")
-    nba = pd.read_csv("jhpq-24h2.csv")
+    #nba = pd.read_csv("jhpq-24h2.csv")
     #type(nba)
-    return nba.head()
+    return req
