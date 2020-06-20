@@ -17,5 +17,5 @@ def handle(req):
         f.write(response.content)
     #print("Download ready.")
     nba = pd.read_csv("jhpq-24h2.csv")
-    type(nba)
+    #type(nba)
     return nba.head()
